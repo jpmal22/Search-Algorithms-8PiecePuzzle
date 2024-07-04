@@ -5,15 +5,17 @@ This project is a comprehensive C++ application designed to solve the 8-puzzle p
 ## Features
 
 Graphical Visualization: Utilizes a custom graphical user interface to display the puzzle and animate the step-by-step solution, providing a clear and interactive way to understand how the puzzle is solved.
+
 Multiple Search Algorithms: Implements various search algorithms including Uniform Cost Search, A* with Misplaced Tile heuristic, and A* with Manhattan Distance heuristic, allowing users to compare the efficiency and effectiveness of these methods.
+
 Dynamic Input Handling: Users can input any valid starting state of the puzzle, and the application will efficiently find and display the solution.
 Performance Metrics: The application provides detailed statistics about the solution process, such as number of nodes expanded, maximum queue size, and total runtime, aiding in performance analysis.
 
 ## Technologies
 
-C++: Core programming language used for developing the application, ensuring efficient algorithm implementation.
-Graphical Library Integration: Integrates with a graphical library suitable for rendering simple 2D graphics, making the puzzle visualization intuitive and responsive.
-Makefile: Utilizes a Makefile for straightforward compilation and execution, simplifying build processes across different development environments.
+* C++: Core programming language used for developing the application, ensuring efficient algorithm implementation.
+* Graphical Library Integration: Integrates with a graphical library suitable for rendering simple 2D graphics, making the puzzle visualization intuitive and responsive.
+* Makefile: Utilizes a Makefile for straightforward compilation and execution, simplifying build processes across different development environments.
 
 ## Getting Started
 
@@ -22,7 +24,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 A C++ compiler like GCC or Clang.
+
 Graphic library dependencies.
+
 Make utility for building the application.
 
 ### Installation
@@ -67,9 +71,10 @@ search.exe batch_run all
 
 ## Authors
 
-Implementation of the search algorithms
+Implementation of the search algorithms: 
+
 * **Paolo Alejandro** - https://github.com/jpmal22
 
-Starter code files are by NH Reyes PDH, Massey University
+Starter code files are by NH Reyes PHD, Massey University
 
 
