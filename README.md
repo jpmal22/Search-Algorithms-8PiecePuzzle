@@ -51,23 +51,23 @@ The command line arguments are the executable file "search.exe", the mode to run
 
 examples: 
 
-search.exe single_run uc_explist 608435127 123456780
-search.exe single_run astar_explist_manhattan 608435127 123456780
-search.exe single_run astar_explist_misplacedtiles 608435127 123456780
+* search.exe single_run uc_explist 608435127 123456780
+* search.exe single_run astar_explist_manhattan 608435127 123456780
+* search.exe single_run astar_explist_misplacedtiles 608435127 123456780
 
 Animate run:
 
 This triggers the graphics component of the project. Takes similar parameters in the command line as single_run:
 
-search.exe animate_run astar_explist_manhattan 608435127 123456780
+* search.exe animate_run astar_explist_manhattan 608435127 123456780
 
 Batch run:
 
 This mode tests the search allgorithm against the pre-defined test cases in main.cpp. You can run against one algorithm or all 3 implementations:
 
-search.exe batch_run astar_explist_misplacedtiles 
-search.exe batch_run uc_explist 
-search.exe batch_run all 
+* search.exe batch_run astar_explist_misplacedtiles 
+* search.exe batch_run uc_explist 
+* search.exe batch_run all 
 
 ## Authors
 
